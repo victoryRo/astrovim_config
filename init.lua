@@ -17,8 +17,12 @@ return {
     },
   },
 
-  -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  -- colorscheme = "everforest",
+  -- colorscheme = "sonokai",
+  -- colorscheme = "monokai-pro",
+  -- colorscheme = "juliana",
+  colorscheme = "adwaita",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
