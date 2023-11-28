@@ -3,8 +3,8 @@
 return {
   "AstroNvim/astrocommunity",
 
-  { import = "astrocommunity.colorscheme.everforest" },
+  -- Themes
   { import = "astrocommunity.colorscheme.nvim-juliana" },
-
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
+  { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 }

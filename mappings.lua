@@ -1,5 +1,6 @@
 
 return {
+
   -- Normal mode
   n = {
     -- navigate buffer tabs with `H` and `L`
@@ -18,6 +19,7 @@ return {
 
     -- buffers
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>x"] = {":bdelete<cr>", desc = "Close current buffer"},
 
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
@@ -29,8 +31,18 @@ return {
       desc = "Pick to close",
     }
   },
+
   -- Visual mode
-  v = {},
+  v = {
+     --  Movement -> or <-
+    ["<"] = { "<gv", desc = "Indent left" },
+    [">"] = { ">gv", desc = "Indent right" },
+
+    --  Move lines up or down
+    J = {":move '>+1<CR>gv-gv", desc = "Move selection line down"},
+    K = {":move '<-2<CR>gv-gv", desc = "Move selection line up"},
+  },
+
   -- Insert mode
   i = {},
   t = {},

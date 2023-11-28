@@ -17,12 +17,18 @@ return {
     },
   },
 
-  -- colorscheme = "astrodark",
-  -- colorscheme = "everforest",
-  -- colorscheme = "sonokai",
-  -- colorscheme = "monokai-pro",
+  -- astro community themes --
   -- colorscheme = "juliana",
-  colorscheme = "adwaita",
+  -- colorscheme = "oxocarbon",
+  -- colorscheme = "onedark",
+  -- /----------------------/ --
+  -- colorscheme = "astrodark",
+  -- colorscheme = "sonokai",
+  -- colorscheme = "adwaita",
+  -- colorscheme = "monokai",
+  -- colorscheme = "gruvbox",
+  colorscheme = "zephyr",
+  -- colorscheme = "OceanicNext",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
