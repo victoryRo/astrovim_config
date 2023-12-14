@@ -5,6 +5,5 @@ return {
 
   -- Themes
   { import = "astrocommunity.colorscheme.nvim-juliana" },
-  { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 }

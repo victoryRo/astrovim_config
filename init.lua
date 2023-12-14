@@ -19,15 +19,14 @@ return {
 
   -- astro community themes --
   -- colorscheme = "juliana",
-  -- colorscheme = "oxocarbon",
   -- colorscheme = "onedark",
   -- /----------------------/ --
-  -- colorscheme = "astrodark",
+  colorscheme = "astrodark",
   -- colorscheme = "sonokai",
   -- colorscheme = "adwaita",
   -- colorscheme = "monokai",
   -- colorscheme = "gruvbox",
-  colorscheme = "zephyr",
+  -- colorscheme = "zephyr",
   -- colorscheme = "OceanicNext",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
